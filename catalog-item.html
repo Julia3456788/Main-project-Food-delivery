@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>item-page</title>
 </head>
-<body>
-    <header class="navigation">
+
+    <header class="page-header">
         <nav>
+        <ul>
         <img src="" alt="Deliverlay">
-        <a>Home</a>
-        <button>Explore</button>
-        <button>Activity</button>
-        <button>Community</button>
-        <button>Pages</button>
-        <button>Contact</button>
-        <a>Add payment Method</a>
+        <li><a class="navigation-link">Home</a></li>
+        <li><a class="navigation-link">Explore</a></li>
+        <li><a class="navigation-link">Activity</a></li>
+        <li><a class="navigation-link">Community</a></li>
+        <li><a class="navigation-link">Pages</a></li>
+        <li><a class="navigation-link">Contact</a></li>
+        <li><a class="payment-method">Add payment Method</a></li>
+        </ul>
         </nav>
     </header>
     
+    <main>
     <section>
-        <h1>Item Details 1</h1>
-        <a>Home</a>
-        <a>Explore</a>
-        <a>Item Details 1</a>
+        <h1 class="catalog-heading">Item Details 1</h1>
+        <a class="option-catalog">Home</a>
+        <a class="option-catalog">Explore</a>
+        <a class="option-catalog">Item Details 1</a>
       </section>
 
     <section>
@@ -32,7 +35,7 @@
         </article>
 
         <article> 
-       <h2>Roger’s Hamburger</h2>
+       <h2 class="item-heading">Roger’s Hamburger</h2>
        <i>views</i>
        <i>likes</i>
        <a>share</a>
@@ -41,159 +44,164 @@
 
         <article>
         <img src="" alt="apple logo">
-        <p> Download app</p>
-        <p>For IOS</p>
+        <p class="download btn"> Download app</p>
+        <p class="system-ident">For IOS</p>
         </article>
 
         <article>
             <img src="" alt="android logo">
-            <p> Download app</p>
-            <p>For Android</p>
+            <p class="download btn"> Download app</p>
+            <p class="system-ident">For Android</p>
             </article>
 
       <article>
-        Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum vitae ipsum malesuada. Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum
-    </article>
+        <p class="item-text">Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum vitae ipsum malesuada. Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum </p>
+     </article>
  
-    <article>Offer time: <!--coutdown--> </article>
-    <article>Delivery time: 20-45min</article>
-    <button><img src="" alt="apple logo">$12.70</button>
+    <article>
+        <p class="item-offer">Offer time: <!--coutdown--> </p>
+    </article>
 
     <article>
-       <a>Product information</a>
-       <a>Store information</a>
-       <a>In other stores</a>
+        <p class="item-delivery">Delivery time: 20-45min</p>
+    </article>
+    <button><img src="" alt="apple logo"><p class="item price">$12.70</p></button>
+
+    <article>
+       <a class="item-info">Product information</a>
+       <a class="item-info">Store information</a>
+       <a class="item-info">In other stores</a>
        
     </article>
 
     <article>
         <img src="" alt="Waves">
-        <p>Restoran</p>
-        <p>Limbo borgers</p>
-        <p>20-35MIN</p>
-        <button>$12.70</button>
+        <p class="item-place">Restoran</p>
+        <p class="place-name">Limbo burgers</p>
+        <p class="item-del-time">20-35MIN</p>
+        <button class="item-price">$12.70</button>
     
     </article>
 
     <article>
         <img src="" alt="C">
-        <p>Restoran</p>
-        <p>Barbara Sun</p>
-        <p>20-35MIN</p>
-        <button>$12.70</button>
+        <p class="item-place">Restoran</p>
+        <p class="place-name">Barbara Sun</p>
+        <p class="item-del-time">20-35MIN</p>
+        <button class="item-price">$12.70</button>
     </article>
 
     <article>
         <img src="" alt="fox">
-        <p>Restoran</p>
-        <p>SalvadorDali</p>
-        <p>20-35MIN</p>
-        <button>$12.70</button>
+        <p class="item-place">Restoran</p>
+        <p class="place-name">SalvadorDali</p>
+        <p class="item-del-time">20-35MIN</p>
+        <button class="item-price">$12.70</button>
     </article>
 
     </section>
 
     <section>
-<ul>
-<a>All</a>
-<a>Fast food</a>
-<a>Delicious</a>
-<a>Deserts</a>
-<a>Drinks</a>
-<a>Main Dishes</a>
-<a>Salats</a>
+ <ul>
+<a class="item-choice">All</a>
+<a class="item-choice">Fast food</a>
+<a class="item-choice">Delicious</a>
+<a class="item-choice">Deserts</a>
+<a class="item-choice">Drinks</a>
+<a class="item-choice">Main Dishes</a>
+<a class="item-choice">Salats</a>
 </ul>
 
     </section>
 
     <section>
-        <article> <!--1-->
+        <article> <!--1 change heading-->
             <img src="" alt="Burger on board">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="Fox">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--2-->
             <img src="" alt="Potatoe Fish">
-            <p>""Living Vase 01 by Lanz......</p>
+            <h5>""Living Vase 01 by Lanz......</h5>
             <img src="" alt="B">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--3-->
             <img src="" alt="Box Burger">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="triangle left">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--4-->
             <img src="" alt="Ribs left">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="Waves">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--5-->
             <img src="" alt="Schnitzel">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="C">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--6-->
             <img src="" alt="Plates condiments">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="fire sign">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--7-->
             <img src="" alt="Potatoe Fish">
-            <p>""Living Vase 01 by Lanz......</p>
+            <h5>""Living Vase 01 by Lanz......</h5>
             <img src="" alt="B">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
         <article> <!--8-->
             <img src="" alt="Burger on board">
-            <p>"Hamlet Contemplates Yorick's...</p>
+            <h5>"Hamlet Contemplates Yorick's...</h5>
             <img src="" alt="Fox">
-            <p>Restoran</p>
-            <p>SalvadorDali</p>
-            <p>$2.70</p>
-            <button>$12.70</button>
+            <p class="restaurant">Restoran</p>
+            <p class="restaurant-name">SalvadorDali</p>
+            <p class="price-delivery">$2.70</p>
+            <button class="dish-price">$12.70</button>
         </article>
 
     </section>
 
-    <button>Load More</button>
+    <button class="load-more">Load More</button>
 
 </section>
 
-</body>
+</main>
 
 <footer>
 
@@ -202,47 +210,52 @@
 <article>
 
     <img src="" alt="Deliverlay">
-    <p>Lorem ipsum dolor sit amet,consectetur
+    <p class="lorem">Lorem ipsum dolor sit amet,consectetur
         adipisicing elit. Quis non, fugit totam vel
         laboriosam vitae.</p>
     <ul>
-    <a>Twitch</a>
-    <a>Google</a>
-    <a>Twitter</a>
-    <a>Facebook</a>
+    <li class="social-media"><a>Twitch</a></li>
+    <li class="social-media"><a>Google</a></li>
+    <li class="social-media"><a>Twitter</a></li>
+    <li class="social-media"><a>Facebook</a></li>
     </ul>
 
 </article>
 
 <article>
-<h9>My Account</h9>
-<a>Authors</a>
-<a>Collection</a>
-<a>Author Profile</a>
-<a>Create Collection</a>
-
+    
+<h6>My Account</h6>
+<ul>
+<li class="account-link"><a>Authors</a></li>
+<li class="account-link"><a>Collection</a></li>
+<li class="account-link"><a>Author Profile</a></li>
+<li class="account-link"><a>Create Collection</a></li>
+</ul>
 </article>
 
 <article>
-<h10>Resources</h10>
-<a>Help & Support</a>
-<a>Live Auctions</a>
-<a>Item Details</a>
-<a>Activity</a>
+ <ul>
+<h6>Resources</h6>
+<li class="resources"><a>Help & Support</a></li>
+<li class="resources"><a>Live Auctions</a></li>
+<li class="resources"><a>Item Details</a></li>
+<li class="resources"><a>Activity</a></li>
+</ul>
 </article>
 
 <article>
-<h11>Company</h11>
-<a>About Us</a>
-<a>Contact Us</a>
-<a>Our Blog</a>
-<a>Discover</a>
+<h6>Company</h6>
+<ul>
+<li class="company"><a>About Us</a></li>
+<li class="company"><a>Contact Us</a></li>
+<li class="company"><a>Our Blog</a></li>
+<li class="company"><a>Discover</a></li>
+</ul>
 </article>
 
 <article>
-<h12>Subscribe Us</h12>
+<p class="subscribe">Subscribe Us</p>
 </article>
-
 
 </section>
 
