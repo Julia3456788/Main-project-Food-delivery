@@ -1,0 +1,416 @@
+  body {
+ background: rgba(13, 13, 17, 1);
+ }
+
+   .navigation-link {
+
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(250, 250, 252, 1);
+
+    }
+    
+   .payment-method {
+   
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+
+   }
+
+    .delivery-heading {
+    
+    font-family: Urbanist;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 76px;
+    color: rgba(250, 250, 252, 1);
+
+    }
+    
+    .delivery-text {
+    
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(250, 250, 252, 1);
+
+    
+    }
+    
+    .main-btn {
+
+    font-family: Urbanist;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(250, 250, 252, 1); 
+
+    }
+
+    .option-choices {
+
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .option-text {
+      
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .subheading-section {
+
+    font-family: Urbanist;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .explore {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .dish-name {
+    
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .restaurant {
+     
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .restaurant-name {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgba(235, 235, 235, 1); 
+
+    }
+
+    .price-delivery {
+      
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .dish-price {
+ 
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(250, 250, 252, 1);
+
+    }
+    
+    .pop-places-name {
+     
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .delivery-time-text {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+   
+    .delivery-time-min {
+     
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(235, 235, 235, 1);
+
+    }
+    
+    .person-name {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .free-del {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(235, 235, 235, 1);
+
+    } 
+
+    .load-more {
+
+    font-family: Urbanist;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(250, 250, 252, 1);
+
+    }
+
+    .lorem-text {
+     
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .footer-subheading {
+
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .item-link {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .subscribe-link {
+
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    
+    /* Catalog css */
+    .catalog-heading {
+
+    font-family: Urbanist;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+  
+    .option-list {
+  
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    background: rgba(138, 138, 160, 1);
+     
+    }
+  
+
+    /* Catalog-item*/
+
+    .item-heading {
+      
+    font-family: Urbanist;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .download-btn {
+    
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .system-ident {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: rgba(235, 235, 235, 0.8);
+
+    }
+
+    .item-text {
+         
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .item-offer {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .item-delivery {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .item-info {
+
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(138, 138, 160, 1);
+            
+    }
+      
+    .item-place {
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+      
+    .place-name {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: rgba(235, 235, 235, 1);
+
+    }
+
+    .item-del-time {
+
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(138, 138, 160, 1);
+
+    }
+
+    .item-price {
+      
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+
+    }
+
+    .item-choice {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(250, 250, 252, 1);
+
+    }
+
+
+
+
+
+
+
+      
+  
+  
+  
+
+     
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    

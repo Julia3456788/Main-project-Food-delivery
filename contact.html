@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home-page</title>
 </head>
+
 <body>
-    <header class="page-header">
-        <nav>
-            <ul>
-        <img src="img/deliverlay_logo.svg" alt="Deliverlay">
-        <img src="img/deliverlay_text.svg" alt="Deliverlay-text">
+    <<header class="page-header">
+        <a><img src="img/deliverlay_logo.svg" alt="Deliverlay"></a>
+        <img src="img/deliverlay_text.svg" alt="Deliverlay">
+     <nav>    
+        <ul class="nav-list">
         <li><a class="navigation-link">Home</a></li>
         <li><a class="navigation-link">Explore</a></li>
         <li><a class="navigation-link">Activity</a></li>
         <li><a class="navigation-link">Community</a></li>
         <li><a class="navigation-link">Pages</a></li>
         <li><a class="navigation-link">Contact</a></li>
-        <li><a class="payment-method">Add payment Method</a></li>
         </ul>
-    </nav>
+     </nav>
+    
+     <a class="payment-method">Add payment Method</a></li>
 
     </header>
      <main>
@@ -35,29 +37,25 @@
                 <img src="" alt="bike">
             </article>
 
-            <article>
-            <h2 class="message">Drop Up A Message</h2>
-            <p class="message text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati
-                dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
-            </article>
+            <form>
+            <h2>Drop Us A Message</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+            <label for="full-name">Your Full Name:</label>
+            <input type="text" placeholder="fullName" name="fullName" required>
             
-            <article>
-                <p class="person data">Your Full Name</p>
-            </article>
+            <label for="email">Your Email Address:</label>
+            <input type="email" placeholder="email" name="email" required>
+            
+            <label for="subject">Select a subject:</label>
+            <select id="subject" placeholder="subject" required>
 
-            <article>
-                <p class="person data">Your Email Address</p>
-            </article>
+            <label for="message">Select a subject:</label>
+            <select id="message" placeholder="subject">
 
-            <article>
-                <p class="person data">Select subject</p>
-            </article>
+            </form>
 
-            <article>
-                <p class="person data">Message</p>
-            </article>
-
-            <button class="send-message">Send message</button>
+             <button>Send message</button>
 
           </section>
 
@@ -119,8 +117,7 @@
      
          
             </section>
-     
-            
+    
              </footer>
          </body>    
          </html>
