@@ -1,6 +1,11 @@
   body {
   background: rgba(13, 13, 17, 1);
    }
+
+   ul {
+   list-style: none;
+
+   }
  
    .navigation-link {
 
