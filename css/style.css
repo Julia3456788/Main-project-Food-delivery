@@ -65,6 +65,16 @@
     font-weight: 700;
     line-height: 18px;
     color: rgba(255, 255, 255, 1);
+    position: absolute;
+    width: Hug (219px)px;
+    height: Hug (56px)px;
+    padding: 16px 36px 16px 36px;
+    gap: 8px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid rgba(81, 66, 252, 1)
+
 
    }
 
@@ -89,15 +99,39 @@
     
     }
     
-    .main-btn {
+    .download-app-btn {
 
     font-family: Urbanist;
     font-size: 17px;
     font-weight: 700;
     line-height: 20px;
     color: rgba(250, 250, 252, 1); 
-
+    width: Hug (219px)px;
+    height: Hug (56px)px;
+    padding: 16px 36px 16px 36px;
+    gap: 8px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px 0px 0px 0px; 
+    opacity: 0px;
+    border: 2px solid rgba(81, 66, 252, 1)
     }
+
+   .add-delivery-btn {
+    font-family: Urbanist;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(250, 250, 252, 1); 
+    width: Hug (242px)px;
+    height: Hug (56px)px;
+    padding: 16px 36px 16px 36px;
+    gap: 8px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid rgba(255, 255, 255, 1)
+   }
+
 
     .option-choices {
 
@@ -126,6 +160,18 @@
     font-weight: 700;
     line-height: 43px;
     color: rgba(255, 255, 255, 1);
+
+    }
+
+    .coutdown-text{
+
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    
 
     }
 
@@ -176,6 +222,16 @@
     font-weight: 700;
     line-height: 20px;
     color: rgba(255, 255, 255, 1);
+    width: 48px;
+    height: 24px;
+    padding: 2px 6px 2px 6px;
+    gap: 10px;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(81, 66, 252, 1);
+    box-sizing: border-box;
+	  display: inline-flex;
+	  align-items: center;
+	  justify-content: center;
 
     }
 
@@ -186,15 +242,12 @@
     font-weight: 700;
     line-height: 18px;
     color: rgba(250, 250, 252, 1);
-    width: Fill (300px)px;
-    height: Fixed (46px)px;
+    width: 300px;
+    height: 46px;
     padding: 14px 24px 14px 24px;
     gap: 6px;
-    border-radius: 23px;
-    opacity: 0;
-    border: 1px solid rgba(255, 255, 255, 1);
-
-
+    border-radius: 23px 23px 23px 23px;
+   
 
     }
     
@@ -401,17 +454,29 @@
 
 }
 
-.card-wrap {
+ .card-wrap {
 
-padding: 20px 
-gap: 16px;
-border-radius: 20px
-opacity: 0px;
-background: rgba(28, 28, 40, 1);
-
+ padding: 20px 
+ gap: 16px;
+ border-radius: 20px
+ opacity: 0px;
+ background: rgba(28, 28, 40, 1);
 
 }
 
+.hot-promo-logo-wrap {
+  width: 44px;
+  height: 44px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0px;
+  background: rgba(13, 13, 17, 1);
+  box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+}
 
 
     
@@ -597,3 +662,20 @@ background: rgba(28, 28, 40, 1);
 
     }
 
+    /*-----------------------------------------Layout----------------------------------*/
+
+      .flexbox-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      ul {        
+          display: flex;
+          align-items: center;
+      }
+  
+      ul li {
+          margin-right: 20px;
+      }
+    }
+  
